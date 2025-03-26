@@ -2,7 +2,7 @@ name: Get Home Latest Timeline
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # 30分ごとに実行
+    - cron: '0 */4 * * *'  # 4時間ごとに実行
   workflow_dispatch:      # 手動トリガーを許可
 
 jobs:
