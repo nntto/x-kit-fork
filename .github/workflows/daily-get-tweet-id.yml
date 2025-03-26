@@ -2,8 +2,8 @@ name: Get Tweet ID
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天运行
-  workflow_dispatch:      # 允许手动触发
+    - cron: '0 0 * * *'  # 毎日実行
+  workflow_dispatch:      # 手動トリガーを許可
 
 jobs:
   update-data:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GH_TOKEN }}  # 使用你设置的 secret
+          token: ${{ secrets.GH_TOKEN }}  # 設定したシークレットを使用
           
       - name: Setup Git
         run: |
