@@ -1,0 +1,119 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {
+    "label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/semantic_core_img/1428827730364096519/4ZXpTBhS?format=png&name=orig"
+      },
+      "description": "Automated",
+      "longDescription": {
+        "text": "Automated by @kb_slot",
+        "entities": [
+          {
+            "fromIndex": 13,
+            "toIndex": 21,
+            "ref": {
+              "type": "TimelineRichTextMention",
+              "screen_name": "kb_slot",
+              "mention_results": {
+                "result": {
+                  "__typename": "User",
+                  "legacy": {
+                    "screen_name": "kb_slot"
+                  },
+                  "rest_id": "1111879999244525569"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "userLabelType": "AutomatedLabel"
+    }
+  },
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "0"
+  },
+  "id": "VXNlcjoxNDgyNzIzNTcwNDQyOTczMTg1",
+  "isBlueVerified": true,
+  "isProfileTranslatable": true,
+  "legacy": {
+    "canDm": false,
+    "canMediaTag": false,
+    "createdAt": "Sun Jan 16 14:37:13 +0000 2022",
+    "defaultProfile": true,
+    "defaultProfileImage": false,
+    "description": "全国パチスロデータ・出玉情報サイト「アナスロ」の北海道エリア用アカウント。 北海道エリアのお店について呟きます。",
+    "entities": {
+      "description": {
+        "urls": []
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "ana-slo.com",
+            "expanded_url": "https://ana-slo.com/",
+            "url": "https://t.co/AsI445fpVq",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 0,
+    "followersCount": 7619,
+    "following": true,
+    "friendsCount": 1560,
+    "hasCustomTimelines": false,
+    "isTranslator": false,
+    "listedCount": 44,
+    "location": "",
+    "mediaCount": 1017,
+    "name": "アナスロ@北海道",
+    "normalFollowersCount": 7619,
+    "pinnedTweetIdsStr": [],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/1482723570442973185/1659536036",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1554832901061378048/IYvq5qVE_normal.jpg",
+    "profileInterstitialType": "",
+    "screenName": "anaslo_hokkaido",
+    "statusesCount": 14487,
+    "translatorType": "none",
+    "url": "https://t.co/AsI445fpVq",
+    "verified": false,
+    "wantRetweets": true,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Circle",
+  "restId": "1482723570442973185",
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1679216707882"
+    }
+  }
+}

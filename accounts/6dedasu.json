@@ -1,0 +1,100 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "8"
+  },
+  "id": "VXNlcjoxMjkzMTE5NDcyNzE1Mjc2Mjg4",
+  "isBlueVerified": true,
+  "isProfileTranslatable": true,
+  "legacy": {
+    "canDm": true,
+    "canMediaTag": true,
+    "createdAt": "Tue Aug 11 09:38:20 +0000 2020",
+    "defaultProfile": true,
+    "defaultProfileImage": false,
+    "description": "北海道地域1スロッター👑道内・札幌近郊店舗の配分予想や結果まとめ明日のおすすめ店💁‍♀️毎日19時⏰確定画面の報告や店内状況大募集📲オープンチャットは不定期配信 舞える日だけ👇",
+    "entities": {
+      "description": {
+        "urls": []
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "onl.bz/YCKZJna",
+            "expanded_url": "https://onl.bz/YCKZJna",
+            "url": "https://t.co/gUkzZXBxUA",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 9654,
+    "followersCount": 14431,
+    "following": true,
+    "friendsCount": 956,
+    "hasCustomTimelines": false,
+    "isTranslator": false,
+    "listedCount": 84,
+    "location": "北海道　札幌",
+    "mediaCount": 7121,
+    "name": "6確@🐉🐉",
+    "normalFollowersCount": 14431,
+    "pinnedTweetIdsStr": [],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/1293119472715276288/1626993356",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1293122302528299008/K8ipfTjN_normal.jpg",
+    "profileInterstitialType": "",
+    "screenName": "6dedasu",
+    "statusesCount": 9339,
+    "translatorType": "none",
+    "url": "https://t.co/gUkzZXBxUA",
+    "verified": false,
+    "wantRetweets": true,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "professional": {
+    "category": [
+      {
+        "iconName": "IconBriefcaseStroke",
+        "id": 15,
+        "name": "Entertainment & Recreation"
+      }
+    ],
+    "professionalType": "Creator",
+    "restId": "1686382065611341824"
+  },
+  "profileImageShape": "Circle",
+  "restId": "1293119472715276288",
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1680249147270"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "6"
+  },
+  "id": "VXNlcjoxMjM0MDAyODA3NTk1NzQ5Mzc2",
+  "isBlueVerified": true,
+  "isProfileTranslatable": true,
+  "legacy": {
+    "canDm": true,
+    "canMediaTag": true,
+    "createdAt": "Sun Mar 01 06:29:41 +0000 2020",
+    "defaultProfile": true,
+    "defaultProfileImage": false,
+    "description": "北海道の店舗データをリアルタイム集計！過去データを元にした予想や当日データまとめなど様々なコンテンツを毎日投稿中！確定報告などDMはお気軽に！北海道ユーザーの情報交換スペース・LINEオープンチャットも好評稼働中ですのでぜひご参加ください！https://t.co/hQhgLPaxTX",
+    "entities": {
+      "description": {
+        "urls": [
+          {
+            "display_url": "onl.la/AQmUK8C",
+            "expanded_url": "http://onl.la/AQmUK8C",
+            "url": "https://t.co/hQhgLPaxTX",
+            "indices": [
+              120,
+              143
+            ]
+          }
+        ]
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "hokkaido-aipos.com",
+            "expanded_url": "https://hokkaido-aipos.com/",
+            "url": "https://t.co/tlfhHRqqeD",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 2483,
+    "followersCount": 9378,
+    "following": true,
+    "friendsCount": 981,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "listedCount": 77,
+    "location": "",
+    "mediaCount": 8573,
+    "name": "AIPOS@北海道パチスロデータ集計サイト オープンチャット🈶",
+    "normalFollowersCount": 9378,
+    "pinnedTweetIdsStr": [],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/1234002807595749376/1589684338",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1261854089190584321/puDeVM5a_normal.jpg",
+    "profileInterstitialType": "",
+    "screenName": "HOKKAIDO_AIPOS",
+    "statusesCount": 18003,
+    "translatorType": "none",
+    "url": "https://t.co/tlfhHRqqeD",
+    "verified": false,
+    "wantRetweets": true,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Circle",
+  "restId": "1234002807595749376",
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1678246867369"
+    }
+  }
+}
