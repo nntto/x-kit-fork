@@ -1,12 +1,139 @@
 [
   {
     "user": {
+      "screenName": "anaslo_hokkaido",
+      "name": "アナスロ@北海道",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1554832901061378048/IYvq5qVE_normal.jpg",
+      "description": "全国パチスロデータ・出玉情報サイト「アナスロ」の北海道エリア用アカウント。 北海道エリアのお店について呟きます。",
+      "followersCount": 7620,
+      "friendsCount": 1560,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/anaslo_hokkaido/status/1905291824186736702",
+    "fullText": "2025/03/27 プレイランドハッピー千歳駅前店 データまとめ\n\n🌈総差枚 +270477\n🌈平均差枚 +519\n✅平均回転数 4408\n✅勝率 50.5%(263/521)\n\n⬇詳細はこちらから⬇\nhttps://t.co/adCciK6Clm",
+    "metrics": {
+      "impressionCount": "40",
+      "retweetCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "replyCount": 0
+    }
+  },
+  {
+    "user": {
+      "screenName": "HOKKAIDO_AIPOS",
+      "name": "AIPOS@北海道パチスロデータ集計サイト オープンチャット🈶",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1261854089190584321/puDeVM5a_normal.jpg",
+      "description": "北海道の店舗データをリアルタイム集計！過去データを元にした予想や当日データまとめなど様々なコンテンツを毎日投稿中！確定報告などDMはお気軽に！北海道ユーザーの情報交換スペース・LINEオープンチャットも好評稼働中ですのでぜひご参加ください！https://t.co/hQhgLPaxTX",
+      "followersCount": 9380,
+      "friendsCount": 981,
+      "location": ""
+    },
+    "images": [
+      "https://pbs.twimg.com/media/GnDMHh7bYAAE1Ta.jpg",
+      "https://pbs.twimg.com/media/GnDMIy1aYAAq35R.jpg",
+      "https://pbs.twimg.com/media/GnDMJzAbsAEc_3C.jpg",
+      "https://pbs.twimg.com/media/GnDMK1EaMAA0giy.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/HOKKAIDO_AIPOS/status/1905247144535273969",
+    "fullText": "3/28(金) #明日の気になるお店\n金曜日のオススメ✨\n\n8⃣の付く日 🉐ハッピー、ライジング\n\nハッピー藻岩 🉐装飾変更🦁✨ 9時開店 8:40抽選\n\nハッピー厚別 🉐🦁🌸 12時開店 11:40抽選\n\nライジング元町 🉐Ⓡ🔥 11時開店 10:40抽選\n\nマルハン美しが丘 なまら&amp;🦁⚡&amp;時差あり🌈 9時開店 モバイル📱 https://t.co/QPMKkqlB2p",
+    "metrics": {
+      "impressionCount": "1115",
+      "retweetCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "replyCount": 0
+    }
+  },
+  {
+    "user": {
+      "screenName": "doragonslot777",
+      "name": "ドラゴンスロット@北海道パチスロホール情報",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1569870294508273666/F-hX7oIP_normal.jpg",
+      "description": "おっす！おらドラスロことドラゴンスロット🐲北海道のおすすめホールを紹介していくぞ‼よろしくなっ🔥",
+      "followersCount": 3052,
+      "friendsCount": 2352,
+      "location": ""
+    },
+    "images": [
+      "https://pbs.twimg.com/media/GnDJ9C6awAIjyZp.jpg",
+      "https://pbs.twimg.com/media/GnDJ_ItaIAAWD7Q.png"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/doragonslot777/status/1905244789785989615",
+    "fullText": "🐉3/28(金)超おすすめ🔥PICK UP🈁\n\n🔥真駒内ひまわり\n➡スロセレ⚡\n\n「スロセレ」開催🎊\n当日の時間経過によって\n対象が発表されていく新感覚取材✨\n\n明日の予定は…\n❶⏰当日14時更新\n❷⏰当日16時更新\n❸⏰当日18時更新\n\n更新機種の確認はコチラから👇\nhttps://t.co/c5EHyJK5kK https://t.co/nY9DzFDgDa",
+    "metrics": {
+      "impressionCount": "232",
+      "retweetCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "replyCount": 0
+    }
+  },
+  {
+    "user": {
+      "screenName": "doragonslot777",
+      "name": "ドラゴンスロット@北海道パチスロホール情報",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1569870294508273666/F-hX7oIP_normal.jpg",
+      "description": "おっす！おらドラスロことドラゴンスロット🐲北海道のおすすめホールを紹介していくぞ‼よろしくなっ🔥",
+      "followersCount": 3052,
+      "friendsCount": 2352,
+      "location": ""
+    },
+    "images": [
+      "https://pbs.twimg.com/media/GnDJihIbYAAsqxq.jpg",
+      "https://pbs.twimg.com/media/GnDJjaiboAAe8xS.png",
+      "https://pbs.twimg.com/media/GnDJtbHagAIeXce.jpg",
+      "https://pbs.twimg.com/media/GnDJwKEa0AAhhmO.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/doragonslot777/status/1905244509358977182",
+    "fullText": "3/28(金)ドラスロおすすめホール🐉\n\n🔥ハッピー各店\n🔥ライジング各店\n➡特定日(8の付く日)\n\n🔥真駒内ひまわり\n➡スロセレ⚡\n\n🔥ハッピー藻岩\n➡金ハッピー✌\n\n🔥ハッピー三光\n➡大切なお客様へ✉⏰11時\n\n🔥マルハン美しが丘\n➡ニャンギラス😸\n\n🔥マルハン琴似\n➡888🐺\n\n🔥イーグルR-1南8条\n➡旗艦店🦅 https://t.co/hefHnjRn8C",
+    "metrics": {
+      "impressionCount": "497",
+      "retweetCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "replyCount": 0
+    }
+  },
+  {
+    "user": {
+      "screenName": "naebomaruhan",
+      "name": "マルハン苗穂店",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1816351703903657987/y7wdUaMj_normal.jpg",
+      "description": "マルハン苗穂店公式アカウント #苗マル🌱 ⇩北海道マルハン新体制へ！ https://t.co/lIzhkquix6 札幌マルハン https://t.co/pjxjeqMSGS 店長アカ→（ごりーら店長）@NAEBoss20041229",
+      "followersCount": 12894,
+      "friendsCount": 9267,
+      "location": "札幌市中央区北1条東14丁目"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/GnDDq52bAAAA1AH.jpg",
+      "https://pbs.twimg.com/media/GnDDq52bMAAwj6p.jpg",
+      "https://pbs.twimg.com/media/GnDDq56aQAAmeid.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/naebomaruhan/status/1905238373767516402",
+    "fullText": "プロテインおぐらです💪💪\n\n先日、家族旅行で洞爺湖へ🚌\n\n関西にいたときはよく琵琶湖に行ってましたが、\n洞爺湖もめちゃくちゃ良かったです✨\n広大な自然に癒されました(*'ω'*)\n\n明日も元気にお客様をお出迎えいたします💪\nただいま明日の入場抽選受付中です💪 https://t.co/Yeqw673lU3",
+    "metrics": {
+      "impressionCount": "2189",
+      "retweetCount": 1,
+      "likeCount": 11,
+      "quoteCount": 1,
+      "replyCount": 0
+    }
+  },
+  {
+    "user": {
       "screenName": "domin_787sub",
       "name": "ドーミン⛄北海道パチスロ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1647334948096061440/N1azYC1U_normal.jpg",
       "description": "札幌を中心にXとオプチャでデータまとめをしております。基本的に結果はオプチャのみに掲載！⛄ドーミンオプチャ→https://t.co/lbZ7ll1HbG 稼働のお役に立てれば🙋🥳【札幌/千歳/小樽/苫小牧/函館/帯広/釧路/北見/中標津】",
-      "followersCount": 4940,
-      "friendsCount": 4535,
+      "followersCount": 4938,
+      "friendsCount": 4534,
       "location": "北海道"
     },
     "images": [
@@ -19,7 +146,7 @@
     "tweetUrl": "https://x.com/domin_787sub/status/1905233180313165952",
     "fullText": "🗓3/28 🎰北海道スロット情報\n\n【登別】\n♦️ロイヤル登別\n8のつく日🔥\nロイヤル12店舗結集🤝\n9時開店⭕️\n✅扱いの良い機種\n沖ドキBLACK/北斗/ジャグ\nこの辺りの高配分に\nスマスロ、パチンコ海など\nこの辺りも軸に入れたい🤔\n特日の情報は\nみんれぽやオプチャにて⭕️\n\n【苫小牧】\n♦️ロイヤル沼ノ端 https://t.co/jLAy6jyqYI",
     "metrics": {
-      "impressionCount": "137",
+      "impressionCount": "795",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -32,8 +159,8 @@
       "name": "ドーミン⛄北海道パチスロ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1647334948096061440/N1azYC1U_normal.jpg",
       "description": "札幌を中心にXとオプチャでデータまとめをしております。基本的に結果はオプチャのみに掲載！⛄ドーミンオプチャ→https://t.co/lbZ7ll1HbG 稼働のお役に立てれば🙋🥳【札幌/千歳/小樽/苫小牧/函館/帯広/釧路/北見/中標津】",
-      "followersCount": 4940,
-      "friendsCount": 4535,
+      "followersCount": 4938,
+      "friendsCount": 4534,
       "location": "北海道"
     },
     "images": [
@@ -46,7 +173,7 @@
     "tweetUrl": "https://x.com/domin_787sub/status/1905231851058573664",
     "fullText": "🗓3/28 🎰札幌スロット情報\n\n🦁8のつく日はハッピー🦁\n\n♦️ハッピー系列\n・藻岩\n金ハッピー👑\n装飾変更あり✨️\nモンキー/GE/エヴァシリーズ⭕️\n9時開店/8時40分抽選\n\n・二十四軒\n9時開店/8時半抽選\n600人打ち切り🏃‍♂️\nシンエヴァ/まどマギ⭕️\n\n・八軒\n原点回帰✔\n12時開店/11時40分抽選\n300人打ち切り⚠️ https://t.co/MAD0hyar2e",
     "metrics": {
-      "impressionCount": "248",
+      "impressionCount": "1181",
       "retweetCount": 0,
       "likeCount": 1,
       "quoteCount": 0,
@@ -59,8 +186,8 @@
       "name": "ぱちっ娘",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1641308745316827137/XDaiaVr9_normal.jpg",
       "description": "まわるパチンコ🅿️と高設定台🎰を打ち続ければ年収1000万💴も夢じゃない🔥経験値と多くの情報📊を精査🤔して勝てるお店🏬をガンガン💥ご紹介👍スロパチステーション等、演者さんの来店情報もお届け😊たくさんの「いいね💖」に感謝です🙏RP・無言フォロー大歓迎🎶\n🟩お仕事やPRのご依頼はDM📨まで🙇",
-      "followersCount": 22115,
-      "friendsCount": 21815,
+      "followersCount": 22112,
+      "friendsCount": 21817,
       "location": ""
     },
     "images": [
@@ -73,9 +200,9 @@
     "tweetUrl": "https://x.com/pachico815/status/1905223580272693258",
     "fullText": "🎀3/28🎀\n\n🎯メガガーデン所沢スロット館\n\n✅⑧の日🔥庭の日🏡\n✅最強ビンゴ風ポスター\nセンター鉄板⁉️演者寄せで三共/サミー⁉️\n✅ましも@pinko_mm来店\n✅みやもん@miyamon_slot来店\n✅ジャルダン共闘🔥\n合同Sammy＆北斗賞品入荷で🈁最優先🔥\n✅キャラ誕🎂あるえ(このすば)\n\n入場はオンライン抽選⚠️ https://t.co/erjoLKEKnk",
     "metrics": {
-      "impressionCount": "232",
-      "retweetCount": 0,
-      "likeCount": 6,
+      "impressionCount": "588",
+      "retweetCount": 3,
+      "likeCount": 17,
       "quoteCount": 0,
       "replyCount": 0
     }
@@ -86,8 +213,8 @@
       "name": "ぱちっ娘",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1641308745316827137/XDaiaVr9_normal.jpg",
       "description": "まわるパチンコ🅿️と高設定台🎰を打ち続ければ年収1000万💴も夢じゃない🔥経験値と多くの情報📊を精査🤔して勝てるお店🏬をガンガン💥ご紹介👍スロパチステーション等、演者さんの来店情報もお届け😊たくさんの「いいね💖」に感謝です🙏RP・無言フォロー大歓迎🎶\n🟩お仕事やPRのご依頼はDM📨まで🙇",
-      "followersCount": 22115,
-      "friendsCount": 21815,
+      "followersCount": 22112,
+      "friendsCount": 21817,
       "location": ""
     },
     "images": [
@@ -99,9 +226,9 @@
     "tweetUrl": "https://x.com/pachico815/status/1905218240487252130",
     "fullText": "🎀3/28🎀#華金\n\n🎯メガフェイス1180座間\n⚡FACE1180座間⚡\n\n1180人打ち切り案内\n#ジャスティン翔 収録来店🔥\n#スロパチガールPS❤️💚\n\nジャグラー/かぐや様\nヴヴヴ/からくり/リゼロ\nモンキー/北斗などメインは鉄板⁉️\n4台並び傾向🤔\n\nパチはリゼロ/エヴァ/北斗/海‼️\nからくりにも🔍️\n\n周年前で期待大🔥 https://t.co/iumqVptrSh",
     "metrics": {
-      "impressionCount": "239",
-      "retweetCount": 0,
-      "likeCount": 5,
+      "impressionCount": "518",
+      "retweetCount": 1,
+      "likeCount": 13,
       "quoteCount": 0,
       "replyCount": 0
     }
@@ -112,8 +239,8 @@
       "name": "ぱちっ娘",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1641308745316827137/XDaiaVr9_normal.jpg",
       "description": "まわるパチンコ🅿️と高設定台🎰を打ち続ければ年収1000万💴も夢じゃない🔥経験値と多くの情報📊を精査🤔して勝てるお店🏬をガンガン💥ご紹介👍スロパチステーション等、演者さんの来店情報もお届け😊たくさんの「いいね💖」に感謝です🙏RP・無言フォロー大歓迎🎶\n🟩お仕事やPRのご依頼はDM📨まで🙇",
-      "followersCount": 22115,
-      "friendsCount": 21815,
+      "followersCount": 22112,
+      "friendsCount": 21817,
       "location": ""
     },
     "images": [
@@ -126,9 +253,9 @@
     "tweetUrl": "https://x.com/pachico815/status/1905215723841913067",
     "fullText": "🎀3/28🎀\n\n🎯ガーデン与野本町\n\n✅庭の日\n✅ビンゴ❗️センターからが⭕️\n✅8の日は山佐🐸\n3/8→モンキー平均2800枚(2/3)\n✅特日は北斗が🔥\n3/8→平均3000枚(3/6)\n✅単品も多数🈶⁉️\n✅もてぎカナ⇒北斗/モンキー/喰種\n\n🌈新装開店🌈\nゴジエヴァ&amp;ダンベル増台\nストパン2導入\n\nPもビンゴ❗️エヴァ/北斗無双 https://t.co/K59uPhpY9N",
     "metrics": {
-      "impressionCount": "265",
-      "retweetCount": 0,
-      "likeCount": 3,
+      "impressionCount": "504",
+      "retweetCount": 1,
+      "likeCount": 8,
       "quoteCount": 0,
       "replyCount": 0
     }
@@ -150,9 +277,9 @@
     "tweetUrl": "https://x.com/r1minami8/status/1905213215719461281",
     "fullText": "むむっ・・・・・・・・！\n\n明日19時から時差開放・・・・・・だと・・・・・・・・・・！？\n\n抽選時間は18時40分・・・・・・・・・！！！！？？\n\nドキドキ・・・・・・・・！？\n\n#イーグルアールワン南8条店　#時差開放　#スロット https://t.co/1V1zT891TM",
     "metrics": {
-      "impressionCount": "186",
+      "impressionCount": "301",
       "retweetCount": 0,
-      "likeCount": 11,
+      "likeCount": 12,
       "quoteCount": 0,
       "replyCount": 0
     }
@@ -163,8 +290,8 @@
       "name": "ぱちっ娘",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1641308745316827137/XDaiaVr9_normal.jpg",
       "description": "まわるパチンコ🅿️と高設定台🎰を打ち続ければ年収1000万💴も夢じゃない🔥経験値と多くの情報📊を精査🤔して勝てるお店🏬をガンガン💥ご紹介👍スロパチステーション等、演者さんの来店情報もお届け😊たくさんの「いいね💖」に感謝です🙏RP・無言フォロー大歓迎🎶\n🟩お仕事やPRのご依頼はDM📨まで🙇",
-      "followersCount": 22115,
-      "friendsCount": 21815,
+      "followersCount": 22112,
+      "friendsCount": 21817,
       "location": ""
     },
     "images": [
@@ -174,9 +301,9 @@
     "tweetUrl": "https://x.com/pachico815/status/1905212418160296086",
     "fullText": "🎀3/28の注目店🎀\n\n🌈神奈川県\n🎯ZAP PRESTIGE (#ザッププレステージ)\n\n🟣🟣うるとらひっと🟣🟣\n🍯🐝GOGOハチみつ取材🐝🍯\n\n🤡ジャグラーシリーズ🤡\n🟥マイジャグ 38台⬛️ミスター 8台\n🟨ゴーゴー 9台🟧ファンキー 8台\n🟩ウルトラミラクル9台\n\n🐝⑧のつく日は🤡に注目🔍\n\n⏰抽選8:40⏰ https://t.co/IwssN5g4oQ",
     "metrics": {
-      "impressionCount": "226",
-      "retweetCount": 0,
-      "likeCount": 2,
+      "impressionCount": "445",
+      "retweetCount": 1,
+      "likeCount": 5,
       "quoteCount": 0,
       "replyCount": 0
     }
@@ -187,8 +314,8 @@
       "name": "ぱちっ娘",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1641308745316827137/XDaiaVr9_normal.jpg",
       "description": "まわるパチンコ🅿️と高設定台🎰を打ち続ければ年収1000万💴も夢じゃない🔥経験値と多くの情報📊を精査🤔して勝てるお店🏬をガンガン💥ご紹介👍スロパチステーション等、演者さんの来店情報もお届け😊たくさんの「いいね💖」に感謝です🙏RP・無言フォロー大歓迎🎶\n🟩お仕事やPRのご依頼はDM📨まで🙇",
-      "followersCount": 22115,
-      "friendsCount": 21815,
+      "followersCount": 22112,
+      "friendsCount": 21817,
       "location": ""
     },
     "images": [
@@ -201,9 +328,9 @@
     "tweetUrl": "https://x.com/pachico815/status/1905208367309808047",
     "fullText": "🎀3/28🎀\n\n🎯　ガーデン東浦和　(埼玉県) \n\n✅月イチ28日🎊\n👉8の日は炎炎🔥+特日で期待度⤴⤴\n\n✅カブトムシゆかり&amp;鈴木涼子来店💕\n👉演者狙いに寄せてくるか⁉️\n\n✅くればちゃん&amp;伊藤真一来店🌈\n👉北朝霞合同収録🎥来店🎉\n\n🅿️パチは暴凶星💥計18台💥\n🎰新台とSANKYO系が扱い🙆💯\n\n抽選9:50　OPEN10:00 https://t.co/fmFdLyJ4yZ",
     "metrics": {
-      "impressionCount": "288",
+      "impressionCount": "525",
       "retweetCount": 0,
-      "likeCount": 4,
+      "likeCount": 6,
       "quoteCount": 0,
       "replyCount": 0
     }
@@ -214,7 +341,7 @@
       "name": "6確@🐉🐉",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1293122302528299008/K8ipfTjN_normal.jpg",
       "description": "北海道地域1スロッター👑道内・札幌近郊店舗の配分予想や結果まとめ明日のおすすめ店💁‍♀️毎日19時⏰確定画面の報告や店内状況大募集📲オープンチャットは不定期配信 舞える日だけ👇",
-      "followersCount": 14429,
+      "followersCount": 14430,
       "friendsCount": 956,
       "location": "北海道　札幌"
     },
@@ -228,7 +355,7 @@
     "tweetUrl": "https://x.com/6dedasu/status/1905207410823922040",
     "fullText": "🗓明日3/28のお店💁‍♀️\n\n☞金ニャンギラス\nマルハン苫小牧⏰9時\n\n☞なまらでっかいシュー\nマルハン美しが丘⏰9時\n\n☞8の日×金ハッピーくん\nハッピー藻岩⏰9時\n\n☞8の日×大切なお客様へ\nハッピー三光⏰11時\n\n☞888台🐺\nマルハン琴似⏰10時\n\n☞真っ向勝負\nクラブイーグル千歳⏰11時\n\n☞🦅旗艦店 https://t.co/rn7myHStJA",
     "metrics": {
-      "impressionCount": "2205",
+      "impressionCount": "3760",
       "retweetCount": 0,
       "likeCount": 1,
       "quoteCount": 0,
@@ -241,8 +368,8 @@
       "name": "ぱちっ娘",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1641308745316827137/XDaiaVr9_normal.jpg",
       "description": "まわるパチンコ🅿️と高設定台🎰を打ち続ければ年収1000万💴も夢じゃない🔥経験値と多くの情報📊を精査🤔して勝てるお店🏬をガンガン💥ご紹介👍スロパチステーション等、演者さんの来店情報もお届け😊たくさんの「いいね💖」に感謝です🙏RP・無言フォロー大歓迎🎶\n🟩お仕事やPRのご依頼はDM📨まで🙇",
-      "followersCount": 22115,
-      "friendsCount": 21815,
+      "followersCount": 22112,
+      "friendsCount": 21817,
       "location": ""
     },
     "images": [
@@ -255,9 +382,9 @@
     "tweetUrl": "https://x.com/pachico815/status/1905205465715560494",
     "fullText": "🎀3/28のオススメ🎀\n\n🌈埼玉\n✅ピーアーク草加\n⇒じゃんじゃん来店🔥+来店取材🟦(青)\n\n🌈千葉\n✅パールショップともえ富里802\n⇒スロぱちガール来店PS❤️💚\n\n🌈神奈川\n✅ピーアーク相模大野\n⇒るいべえ来店🔥+来店取材🟦(青)\n\n✅メガフェイス1180座間\n⇒スロぱちガール来店PS❤️💚\n\n#スロパチ来店取材 https://t.co/US5fRNCP9N",
     "metrics": {
-      "impressionCount": "390",
-      "retweetCount": 1,
-      "likeCount": 8,
+      "impressionCount": "726",
+      "retweetCount": 2,
+      "likeCount": 10,
       "quoteCount": 0,
       "replyCount": 0
     }
@@ -268,7 +395,7 @@
       "name": "札幌パチンコスロット調査兵団",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1312493534046351360/l3wPAj6o_normal.jpg",
       "description": "今日DOKO行く？札幌近郊のパチンコスロット🎰を楽しむ為のイベント情報をまとめています。😭気軽にフォローお願いします！",
-      "followersCount": 4037,
+      "followersCount": 4035,
       "friendsCount": 225,
       "location": ""
     },
@@ -277,7 +404,7 @@
     "tweetUrl": "https://x.com/sapporokansi/status/1905199498873217285",
     "fullText": "【3/28】DOKO行く？まとめ(春のHAPPY祭) https://t.co/W842jaMOnM",
     "metrics": {
-      "impressionCount": "426",
+      "impressionCount": "651",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -299,7 +426,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1905199387221094504",
     "fullText": "【北海道 明日(3/28)の注目店(8の付く日)】\n\nプレイランドハッピー千歳駅前店\nライジング元町\nロイヤル沼ノ端店\nプレイランドハッピー二十四軒店\nロイヤル帯広店\nロイヤル釧路店\n\n※過去3回分のデータから注目店をピックアップ\n⬇過去データはアナスロをチェック⬇\nhttps://t.co/618Srv8dly",
     "metrics": {
-      "impressionCount": "658",
+      "impressionCount": "917",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -324,7 +451,7 @@
     "tweetUrl": "https://x.com/r1minami8/status/1905198118322458929",
     "fullText": "明日は～～～～～❤❤❤❤❤❤❤\n\n3月28日金曜日💗11時開店です💫💫💫\n\n抽選時間は10時40分なのでお間違いの無いようお願い致します(੭ु´･ω･`)੭ु⁾⁾\n\n雪はとけてきたのにまだまだ寒い・・・・💦💦\n\n#イーグルアールワン南8条店　#イーグルアールワン南８条　#11時開店　#パチンコ　#スロット https://t.co/qGtr1pswfA",
     "metrics": {
-      "impressionCount": "389",
+      "impressionCount": "519",
       "retweetCount": 1,
       "likeCount": 17,
       "quoteCount": 0,
@@ -337,8 +464,8 @@
       "name": "店長ミヤ@マルハン琴似店",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1871906145788628992/dCc6oUxn_normal.jpg",
       "description": "マルハン琴似店の公式アカウント⚠注意事項 ⚠業務性質上DM等への返信は出来ません。北海道マルハン全店のXカウントはこちらhttps://t.co/00sC312l8q インスタもやってます♪https://t.co/4jHxRlack0",
-      "followersCount": 6068,
-      "friendsCount": 4382,
+      "followersCount": 6069,
+      "friendsCount": 4381,
       "location": ""
     },
     "images": [
@@ -349,7 +476,7 @@
     "tweetUrl": "https://x.com/kotonimaruhan/status/1905198108926996577",
     "fullText": "店長ミヤです。\n\n明日3月28日[金]\n\n10時開店  ※入場抽選9時40分\n\n明日も一緒に楽しみましょう♪\n\nLINEVOOMも 毎日 更新中\nこちらもご確認下さい♪\n\n#マルハン琴似\n#パチンコ\n#スロット\n#琴○\n#〇琴\n#琴似\n#マル琴\n#琴マル https://t.co/n8lpGEAeSb",
     "metrics": {
-      "impressionCount": "225",
+      "impressionCount": "329",
       "retweetCount": 0,
       "likeCount": 3,
       "quoteCount": 0,
@@ -373,7 +500,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1905190582223585324",
     "fullText": "🏆3/26 出てた台ランキング(北海道)\n※一部の爆裂機を除く\n\n🥇かぐや様は告らせたい +18,802\n🥈モンハンライズ +15,688\n🥉東京喰種 +14,978\n🌟スーパービンゴネオ +13,883\n🌟東京喰種 +13,635\n🌟GEリザレクション +12,841\n\n⬇その他分析データ等はサイトをチェック\nhttps://t.co/kWAhrAYlqs https://t.co/jt2cLfCluF",
     "metrics": {
-      "impressionCount": "707",
+      "impressionCount": "946",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -386,7 +513,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -395,7 +522,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905178230837186633",
     "fullText": "3/28 群馬県 旧イベ/イベント一覧📝\nhttps://t.co/tfsxgIIhvD\n\n＜来店/取材＞\n・スーパーDステーション大間々（ぱちタウンエンジェルス）\n\n＜旧イベ＞\nℹ️8のつく日\nアスカ太田店\nジャンジャンプラス\n\n※キャンセルや変更等は各自確認お願いします。\n※旧イベ情報の過不足あれば教えてください。",
     "metrics": {
-      "impressionCount": "143",
+      "impressionCount": "203",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -408,7 +535,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -417,7 +544,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905178080089690438",
     "fullText": "3/28 栃木県 旧イベ/イベント一覧📝\nhttps://t.co/tfsxgIIhvD\n\n＜周年日＞\n・ライブガーデン宇都宮桜（カワサキカオリのスロレポ‼︎）\n\n※店舗ページ確認\n\n＜旧イベ＞\nℹ️8のつく日\nDELGRAND上横田\nDELGRAND下栗\nZENTインターパーク店\nZENTテクノ店\nZENT御幸店\nZENT海道店\nZENT益子店\nZENT石橋店",
     "metrics": {
-      "impressionCount": "202",
+      "impressionCount": "269",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -430,7 +557,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -439,7 +566,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905177965056676171",
     "fullText": "3/28 千葉県 旧イベ/イベント一覧📝\nhttps://t.co/tfsxgIIhvD\n\n＜来店/取材＞\n・パールショップともえ富里802（スロぱちガール来店PS）\n・パールショップともえ八日市場（アルティメットCG調査隊/ぱちタウンエンジェルス）\n・ジュラク柏（スロミューマル特レポート）",
     "metrics": {
-      "impressionCount": "178",
+      "impressionCount": "242",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -452,7 +579,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -461,7 +588,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905177819413663933",
     "fullText": "3/28 埼玉県 旧イベ/イベント一覧📝\nhttps://t.co/tfsxgIIhvD\n\n＜周年日＞\n・ナビ羽生\n\n※店舗ページ確認\n\n＜来店/取材＞\n・ピーアーク草加（じゃんじゃん来店実践/スロパチ来店取材青）\n・マルハン所沢（真骨超/超ディグスロ）\n・上尾UNO（天草ヤスヲ来店/天草王道ホール応援団来店）",
     "metrics": {
-      "impressionCount": "295",
+      "impressionCount": "382",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -474,7 +601,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -483,7 +610,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905177632460980316",
     "fullText": "3/28 神奈川県 旧イベ/イベント一覧📝\nhttps://t.co/tfsxgIIhvD\n\n＜周年日＞\n・楽園相模原\n\n※店舗ページ確認\n\n＜来店/取材＞\n・ピーアーク相模大野（るいべえ来店実践/スロパチ来店取材青）\n・新！ガーデン戸塚（スロパチ来店取材赤）\n・メガフェイス1180座間（スロぱちガール来店PS）",
     "metrics": {
-      "impressionCount": "394",
+      "impressionCount": "520",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -496,7 +623,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -505,7 +632,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905177467838734713",
     "fullText": "3/28 東京都 旧イベ/イベント一覧📝\nhttps://t.co/tfsxgIIhvD\n\n＜来店/取材＞\n・エクスアリーナ東京（スロパチ来店取材青）\n・マルハン鹿浜（スロパチガール来店S）\n・パチンコ大王高島平（スロパチガール来店S）\n・エスパス日拓渋谷駅前新館（天草超絶ホール応援団来店）",
     "metrics": {
-      "impressionCount": "308",
+      "impressionCount": "393",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -518,7 +645,7 @@
       "name": "クラブイーグル麻生店",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1879069607644061696/wXUsSknP_normal.jpg",
       "description": "クラブイーグル麻生店アカウント🦅お店の情報ツイートしてます！いいね & フォロー待ってます！TikTok・YouTubeも観てね🩷🩷残念ながらDM等での返信はできません🙇🏼‍♀️",
-      "followersCount": 9924,
+      "followersCount": 9923,
       "friendsCount": 7596,
       "location": "北海道 札幌市北区北37条西5丁目1番30号"
     },
@@ -530,9 +657,9 @@
     "tweetUrl": "https://x.com/clubeaglek37/status/1905153260991963587",
     "fullText": "雪降っててしょぼーんなおひなです😩💧\n\n🌺明日３月２８日(金)のご案内🌺\n🐧９：００オープン⛓\n⏰抽選時間➡️８：４５\n📍抽選場所➡️立駐3階\n\nお待ちしております💙 https://t.co/p5mCOZLgZR",
     "metrics": {
-      "impressionCount": "860",
+      "impressionCount": "1214",
       "retweetCount": 2,
-      "likeCount": 75,
+      "likeCount": 94,
       "quoteCount": 0,
       "replyCount": 3
     }
@@ -543,8 +670,8 @@
       "name": "ドーミン⛄北海道パチスロ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1647334948096061440/N1azYC1U_normal.jpg",
       "description": "札幌を中心にXとオプチャでデータまとめをしております。基本的に結果はオプチャのみに掲載！⛄ドーミンオプチャ→https://t.co/lbZ7ll1HbG 稼働のお役に立てれば🙋🥳【札幌/千歳/小樽/苫小牧/函館/帯広/釧路/北見/中標津】",
-      "followersCount": 4940,
-      "friendsCount": 4535,
+      "followersCount": 4938,
+      "friendsCount": 4534,
       "location": "北海道"
     },
     "images": [
@@ -554,7 +681,7 @@
     "tweetUrl": "https://x.com/domin_787sub/status/1905145891989954621",
     "fullText": "🎰3/26 データまとめ🌈\n\n【札幌】\n🏬ひまわり札幌駅前タワー\n🪤5F装飾変更\n\n🏬ハッピー屯田四条\n🪤ハッピーXやってます\n\n【全域】\n🏬ロイヤル登別【3/25】\n🪤特定日ポスター\n\n3件の事後をオプチャに投稿しました🙆‍♀️\n詳しくはオプチャに参加して要チェック✅\n\nオプチャはこちら💁 https://t.co/Vvk3gJWD3A",
     "metrics": {
-      "impressionCount": "754",
+      "impressionCount": "920",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -567,7 +694,7 @@
       "name": "札幌・道央スロットアナライズ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/989320552706854912/hs7-a6v0_normal.jpg",
       "description": "札幌近辺のホールの近況とか調べたりしてます。ホール分析とかも好き。パチスロはGOD系&まどマギ、お酒はハイボール派。※つぶやき内容はあくまでイチ個人の戯言です。 ブログも宜しくお願いします。https://t.co/VNSQkuuQNO",
-      "followersCount": 11637,
+      "followersCount": 11635,
       "friendsCount": 7475,
       "location": "札幌"
     },
@@ -579,9 +706,9 @@
     "tweetUrl": "https://x.com/slot_analyze/status/1905128342271230219",
     "fullText": "はっｗｗ https://t.co/nc0SHUuOe0",
     "metrics": {
-      "impressionCount": "875",
+      "impressionCount": "1022",
       "retweetCount": 0,
-      "likeCount": 3,
+      "likeCount": 4,
       "quoteCount": 0,
       "replyCount": 0
     }
@@ -592,7 +719,7 @@
       "name": "札幌・道央スロットアナライズ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/989320552706854912/hs7-a6v0_normal.jpg",
       "description": "札幌近辺のホールの近況とか調べたりしてます。ホール分析とかも好き。パチスロはGOD系&まどマギ、お酒はハイボール派。※つぶやき内容はあくまでイチ個人の戯言です。 ブログも宜しくお願いします。https://t.co/VNSQkuuQNO",
-      "followersCount": 11637,
+      "followersCount": 11635,
       "friendsCount": 7475,
       "location": "札幌"
     },
@@ -606,7 +733,7 @@
     "tweetUrl": "https://x.com/slot_analyze/status/1905128238609002626",
     "fullText": "【3/26 EBH】6のつく日！→集計結果\n\n差枚：+1300枚\n1台平均：+11枚(20スロ118台)\n勝率→37/118で31パー\n\nhttps://t.co/z0xULYE5kO https://t.co/oAVITPoCLd",
     "metrics": {
-      "impressionCount": "565",
+      "impressionCount": "646",
       "retweetCount": 0,
       "likeCount": 1,
       "quoteCount": 0,
@@ -620,7 +747,7 @@
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1899295926252171264/D3nTcbnv_normal.jpg",
       "description": "ギルド北海道版を結果報告専用版に転生✨ ギルドが調査した関東のお店の結果をココに凝縮💥 結果から明日の狙いが見える⁉️🤔 明日の狙い目はメイン垢の【@slotterguild】でチェック🔍",
       "followersCount": 1556,
-      "friendsCount": 2788,
+      "friendsCount": 2787,
       "location": "日本"
     },
     "images": [],
@@ -628,7 +755,7 @@
     "tweetUrl": "https://x.com/s_slotterguildh/status/1905120295528374443",
     "fullText": "3/26(水)👨‍💻結果👨‍💻\nエスパス西武新宿／月イチ周年日\n\n💎月イチ周年日は優秀機種が山盛り🌟\n💎高品質な単品も盛りだくさん✨\nhttps://t.co/MuPXjyHu8q\n\n🔥優秀機種🔥\n🚩シスタークエスト⏩平均+4,650枚\n🚩防振り⏩平均+2,250枚\n🚩キングハナハナ30⏩平均+1,250枚\n🚩ゴージャグ3⏩平均+983枚",
     "metrics": {
-      "impressionCount": "175",
+      "impressionCount": "207",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -642,7 +769,7 @@
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1899295926252171264/D3nTcbnv_normal.jpg",
       "description": "ギルド北海道版を結果報告専用版に転生✨ ギルドが調査した関東のお店の結果をココに凝縮💥 結果から明日の狙いが見える⁉️🤔 明日の狙い目はメイン垢の【@slotterguild】でチェック🔍",
       "followersCount": 1556,
-      "friendsCount": 2788,
+      "friendsCount": 2787,
       "location": "日本"
     },
     "images": [],
@@ -650,7 +777,7 @@
     "tweetUrl": "https://x.com/s_slotterguildh/status/1905119412753174896",
     "fullText": "3/26(水)📝分析結果📝\nプレサス飯田橋／水曜日\n\n🌏狙い目機種から多彩な仕掛けが出現🎁\n🌏平均差枚+250枚オーバーの好成績💫\nhttps://t.co/1PnENFvJ9m\n\n🌈高配分機種🌈\n💡モンキーターンV\n💡ゴッドイーター\n💡かぐや様\n💡東京喰種\n💡スマスロ北斗の拳\n💡ヴァルヴレイヴ\n💡ToLOVEるダークネス",
     "metrics": {
-      "impressionCount": "421",
+      "impressionCount": "462",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -664,7 +791,7 @@
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1899295926252171264/D3nTcbnv_normal.jpg",
       "description": "ギルド北海道版を結果報告専用版に転生✨ ギルドが調査した関東のお店の結果をココに凝縮💥 結果から明日の狙いが見える⁉️🤔 明日の狙い目はメイン垢の【@slotterguild】でチェック🔍",
       "followersCount": 1556,
-      "friendsCount": 2788,
+      "friendsCount": 2787,
       "location": "日本"
     },
     "images": [],
@@ -672,7 +799,7 @@
     "tweetUrl": "https://x.com/s_slotterguildh/status/1905118309680636130",
     "fullText": "3/26📝分析結果📝\nエスパス 新宿 歌舞伎 町／6のつく日\n\n🌈仕掛け満載の6のつく日✨\n🌈末尾⑥番台も優秀な成績💎\nhttps://t.co/qyHHkoT0j3\n\n👑全台系濃厚機種👑\n🎖️戦国乙女4⏩平均+8,833枚\n\n👑高配分機種👑\n🎖️七つの魔剣⏩平均+2,988枚\n🎖️真･一騎当千⏩平均+2,925枚\n🎖️一方通行⏩平均+2,150枚",
     "metrics": {
-      "impressionCount": "269",
+      "impressionCount": "338",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -686,7 +813,7 @@
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1899295926252171264/D3nTcbnv_normal.jpg",
       "description": "ギルド北海道版を結果報告専用版に転生✨ ギルドが調査した関東のお店の結果をココに凝縮💥 結果から明日の狙いが見える⁉️🤔 明日の狙い目はメイン垢の【@slotterguild】でチェック🔍",
       "followersCount": 1556,
-      "friendsCount": 2788,
+      "friendsCount": 2787,
       "location": "日本"
     },
     "images": [],
@@ -694,7 +821,7 @@
     "tweetUrl": "https://x.com/s_slotterguildh/status/1905115083635835311",
     "fullText": "3/26(水)\n🥉ニュークラウン綾瀬🥉\n\n👑総差枚⏩+70,788枚\n👑平均差枚⏩+367枚\n👑平均G数⏩3,816G\n👑勝率⏩39.9%(77/193台)\n\n🏆優秀機種TOP5🏆\n📍ダン持て⏩平均+8,864枚(4/4台)\n📍モンキーターンV⏩平均+3,278枚(5/7台)\n📍モンハンライズ⏩平均+2,702枚(3/4台)",
     "metrics": {
-      "impressionCount": "141",
+      "impressionCount": "165",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -708,7 +835,7 @@
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1899295926252171264/D3nTcbnv_normal.jpg",
       "description": "ギルド北海道版を結果報告専用版に転生✨ ギルドが調査した関東のお店の結果をココに凝縮💥 結果から明日の狙いが見える⁉️🤔 明日の狙い目はメイン垢の【@slotterguild】でチェック🔍",
       "followersCount": 1556,
-      "friendsCount": 2788,
+      "friendsCount": 2787,
       "location": "日本"
     },
     "images": [],
@@ -716,7 +843,7 @@
     "tweetUrl": "https://x.com/s_slotterguildh/status/1905114436651909329",
     "fullText": "3/26(水)\n🥈ピーアーク北千住SSS🥈\n\n👑総差枚⏩+103,504枚\n👑平均差枚⏩+391枚\n👑平均G数⏩4,587G\n👑勝率⏩47.5%(126/265台)\n\n🏆優秀機種TOP5🏆\n📍戦国乙女4⏩平均+4,644枚(2/3台)\n📍番長4⏩平均+4,630枚(3/3台)\n📍シスタークエスト⏩平均+3,830枚(2/3台)\n📍スーパーBJ⏩平均+3,405枚(3/4台)",
     "metrics": {
-      "impressionCount": "188",
+      "impressionCount": "221",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -729,7 +856,7 @@
       "name": "札幌・道央スロットアナライズ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/989320552706854912/hs7-a6v0_normal.jpg",
       "description": "札幌近辺のホールの近況とか調べたりしてます。ホール分析とかも好き。パチスロはGOD系&まどマギ、お酒はハイボール派。※つぶやき内容はあくまでイチ個人の戯言です。 ブログも宜しくお願いします。https://t.co/VNSQkuuQNO",
-      "followersCount": 11637,
+      "followersCount": 11635,
       "friendsCount": 7475,
       "location": "札幌"
     },
@@ -743,7 +870,7 @@
     "tweetUrl": "https://x.com/slot_analyze/status/1905114028105732368",
     "fullText": "【3/25 イーグルゴー北郷店】5の付く日→集計結果\n\n差枚：+23700枚\n1台平均：+184枚(20スロ129台)\n勝率→46/129で36パー\n\nhttps://t.co/EGZqcuLkBM https://t.co/57oAgAgzab",
     "metrics": {
-      "impressionCount": "542",
+      "impressionCount": "619",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -757,7 +884,7 @@
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1899295926252171264/D3nTcbnv_normal.jpg",
       "description": "ギルド北海道版を結果報告専用版に転生✨ ギルドが調査した関東のお店の結果をココに凝縮💥 結果から明日の狙いが見える⁉️🤔 明日の狙い目はメイン垢の【@slotterguild】でチェック🔍",
       "followersCount": 1556,
-      "friendsCount": 2788,
+      "friendsCount": 2787,
       "location": "日本"
     },
     "images": [],
@@ -765,7 +892,7 @@
     "tweetUrl": "https://x.com/s_slotterguildh/status/1905113932723085412",
     "fullText": "3/26(水)\n🥇アミューズ浅草🥇\n\n👑総差枚⏩+194,726枚\n👑平均差枚⏩+423枚\n👑平均G数⏩5,173G\n👑勝率⏩45.9%(211/460台)\n\n🏆優秀機種TOP5🏆\n📍仮面ライダー電王⏩平均+4,224枚(2/2台)\n📍防振り⏩平均+2,263枚(3/4台)\n📍七つの魔剣⏩平均+2,098枚(2/4台)\n📍シャーマンキング⏩平均+2,057枚(1/4台)",
     "metrics": {
-      "impressionCount": "288",
+      "impressionCount": "347",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -779,7 +906,7 @@
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1899295926252171264/D3nTcbnv_normal.jpg",
       "description": "ギルド北海道版を結果報告専用版に転生✨ ギルドが調査した関東のお店の結果をココに凝縮💥 結果から明日の狙いが見える⁉️🤔 明日の狙い目はメイン垢の【@slotterguild】でチェック🔍",
       "followersCount": 1556,
-      "friendsCount": 2788,
+      "friendsCount": 2787,
       "location": "日本"
     },
     "images": [],
@@ -787,7 +914,7 @@
     "tweetUrl": "https://x.com/s_slotterguildh/status/1905113267368014197",
     "fullText": "3/26(水)\n🏆都内出玉TOP10🏆\n\n🥇アミューズ浅草🥇\n👑総差枚⏩+194,726枚\n👑平均差枚⏩+423枚\n\n🥈ピーアーク北千住SSS🥈\n👑総差枚⏩+103,504枚\n👑平均差枚⏩+391枚\n\n🥉ニュークラウン綾瀬🥉\n👑総差枚⏩+70,788枚\n👑平均差枚⏩+367枚\n\n🍀EXA FIRST\n👑総差枚⏩+145,605枚\n👑平均差枚⏩+360枚",
     "metrics": {
-      "impressionCount": "266",
+      "impressionCount": "346",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -800,7 +927,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -809,11 +936,11 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905106367876325821",
     "fullText": "3/26 📈栃木県 差枚結果📈\nhttps://t.co/tfsxgIIhvD\n\nℹ️MGM小山本郷店\n総差枚+171,740 / 平均差枚+432\nℹ️麗都宇都宮テクノ店\n総差枚+54,001 / 平均差枚+225\n ℹ️KING BOSS 1000\n総差枚+76,250 / 平均差枚+182\nℹ️ライブガーデン栃木本店\n総差枚+48,391 / 平均差枚+173\nℹ️スーパーライブガーデン野木店",
     "metrics": {
-      "impressionCount": "348",
+      "impressionCount": "377",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "replyCount": 0
+      "replyCount": 1
     }
   },
   {
@@ -822,7 +949,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -831,7 +958,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905106226650009622",
     "fullText": "3/26 📈千葉県 差枚結果📈\nhttps://t.co/tfsxgIIhvD\n\nℹ️パールショップともえ八街HIZIKAI\n総差枚+35,810 / 平均差枚+245\nℹ️MGM行徳店\n総差枚+31,330 / 平均差枚+224\nℹ️ときわホール\n総差枚+33,239 / 平均差枚+210\nℹ️MGM成田店\n総差枚+26,670 / 平均差枚+188\nℹ️パールショップともえ木更津店",
     "metrics": {
-      "impressionCount": "244",
+      "impressionCount": "291",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -844,7 +971,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -853,7 +980,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905106122283143671",
     "fullText": "3/26 📈埼玉県 差枚結果📈\nhttps://t.co/tfsxgIIhvD\n\nℹ️R7 STRONG\n総差枚+43,726 / 平均差枚+394\nℹ️ジャムフレンドクラブ朝霞\n総差枚+50,535 / 平均差枚+212\nℹ️パールショップともえ川越店\n総差枚+86,800 / 平均差枚+175\nℹ️コンサートホール上尾\n総差枚+9,461 / 平均差枚+79\nℹ️MGM浦和店\n総差枚+16,810",
     "metrics": {
-      "impressionCount": "279",
+      "impressionCount": "324",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -866,7 +993,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -875,7 +1002,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905105983975932189",
     "fullText": "3/26 📈神奈川県 差枚結果📈\nhttps://t.co/tfsxgIIhvD\n\nℹ️スタジアム二俣川店\n総差枚+44,647 / 平均差枚+336\nℹ️エスパス日拓溝の口駅前新館\n総差枚+57,189 / 平均差枚+203\nℹ️グリーン\n総差枚+26,490 / 平均差枚+151\nℹ️ジョイフル吉兆川崎中央店\n総差枚+7,693 / 平均差枚+110\n ℹ️BRAJAN戸塚店",
     "metrics": {
-      "impressionCount": "295",
+      "impressionCount": "342",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -888,7 +1015,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -897,7 +1024,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905105478524547235",
     "fullText": "3/26 📈東京都 差枚結果📈\nhttps://t.co/tfsxgIIhvD\n\nℹ️ビッグアップル秋葉原店\n総差枚+201,720 / 平均差枚+429\nℹ️アミューズ浅草店\n総差枚+194,726 / 平均差枚+423\nℹ️ピーアーク北千住SSS\n総差枚+105,089 / 平均差枚+397\nℹ️ニュークラウン綾瀬店\n総差枚+74,670 / 平均差枚+387\nℹ️エクサファースト",
     "metrics": {
-      "impressionCount": "408",
+      "impressionCount": "516",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -910,7 +1037,7 @@
       "name": "関東パチスロ情報局【P-info】",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1648960715267674114/a8zk6XF4_normal.jpg",
       "description": "オープンチャット「関東パチスロ情報局【P-info】」 https://t.co/iB4FHkDCN5",
-      "followersCount": 5361,
+      "followersCount": 5362,
       "friendsCount": 3910,
       "location": "東京"
     },
@@ -919,7 +1046,7 @@
     "tweetUrl": "https://x.com/p_info_kanto/status/1905068802204922138",
     "fullText": "ℹ️3/27 抽選人数ℹ️\nhttps://t.co/eFCxpaxSKc\n\nマルハン池袋SB500打ち切り\nビックディッパー新橋1号750\nアイランド秋葉原689\nアビバ四街道450\nマルハン亀有390\nマルハン所沢350\nマルハン小山千駄塚320\nビックディッパー新橋2号260\n第一プラザ坂戸1000 240\nキクヤ千葉220\nコンサートホールエフ成増220",
     "metrics": {
-      "impressionCount": "2207",
+      "impressionCount": "2582",
       "retweetCount": 1,
       "likeCount": 3,
       "quoteCount": 0,
@@ -946,7 +1073,7 @@
     "tweetUrl": "https://x.com/HOKKAIDO_AIPOS/status/1905061375799705949",
     "fullText": "3/26 #イーグル小樽 vs #ハッピー小樽駅前\n#AIPOS結果\n\n🏬イーグル小樽\n📈差枚+24,683枚(平均+241枚)\n✅店内状況ピックアップ\n・モンキーターン　3/5 +7,628枚\n・ゴーゴージャグラー　4/8 +2,709枚\n・ミスタージャグラー[677] +1,906枚\nバラ機種コーナーにも注目👀\n\n🏬ハッピー小樽駅前 https://t.co/zVzRgEr0PD",
     "metrics": {
-      "impressionCount": "1606",
+      "impressionCount": "1885",
       "retweetCount": 0,
       "likeCount": 2,
       "quoteCount": 0,
@@ -968,7 +1095,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1904987067106644066",
     "fullText": "2025/03/26 イーグルオー小樽店 データまとめ\n\n✨総差枚 +24810\n✨平均差枚 +230\n✅平均回転数 1777\n✅勝率 39.8%(43/108)\n\n⬇詳細はこちらから⬇\nhttps://t.co/eXTsrfQJDO",
     "metrics": {
-      "impressionCount": "1366",
+      "impressionCount": "1445",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -990,7 +1117,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1904982395335700944",
     "fullText": "2025/03/26 KEIO湯川店 データまとめ\n\n✨総差枚 +38493\n✨平均差枚 +205\n✅平均回転数 3204\n✅勝率 41.0%(77/188)\n\n⬇詳細はこちらから⬇\nhttps://t.co/cNKqWkZtWl",
     "metrics": {
-      "impressionCount": "1167",
+      "impressionCount": "1231",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1012,7 +1139,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1904961187961585925",
     "fullText": "2025/03/26 プレイランドハッピー小樽駅前店 データまとめ\n\n✨総差枚 +17076\n✨平均差枚 +190\n✅平均回転数 2324\n✅勝率 34.4%(31/90)\n\n⬇詳細はこちらから⬇\nhttps://t.co/6wEVxoTJdo",
     "metrics": {
-      "impressionCount": "1070",
+      "impressionCount": "1121",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1025,7 +1152,7 @@
       "name": "札幌・道央スロットアナライズ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/989320552706854912/hs7-a6v0_normal.jpg",
       "description": "札幌近辺のホールの近況とか調べたりしてます。ホール分析とかも好き。パチスロはGOD系&まどマギ、お酒はハイボール派。※つぶやき内容はあくまでイチ個人の戯言です。 ブログも宜しくお願いします。https://t.co/VNSQkuuQNO",
-      "followersCount": 11637,
+      "followersCount": 11635,
       "friendsCount": 7475,
       "location": "札幌"
     },
@@ -1039,7 +1166,7 @@
     "tweetUrl": "https://x.com/slot_analyze/status/1904956288993546391",
     "fullText": "【3/25 ベガスベガス狸小路4丁目店】5の付く日→集計結果\n\n差枚：+18400枚\n1台平均：+34枚(20スロ531台)\n勝率→222/531で42パー\n\nhttps://t.co/Xk0whdTcKJ https://t.co/RaZRarNNKa",
     "metrics": {
-      "impressionCount": "925",
+      "impressionCount": "974",
       "retweetCount": 0,
       "likeCount": 1,
       "quoteCount": 0,
@@ -1061,7 +1188,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1904948809081458839",
     "fullText": "2025/03/26 ロイヤル函館店 データまとめ\n\n✨総差枚 +40737\n✨平均差枚 +170\n✅平均回転数 1464\n✅勝率 35.0%(84/240)\n\n⬇詳細はこちらから⬇\nhttps://t.co/dCMMYbtkZZ",
     "metrics": {
-      "impressionCount": "1002",
+      "impressionCount": "1062",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1083,7 +1210,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1904946264141344974",
     "fullText": "2025/03/26 SLOT BAR M's データまとめ\n\n✨総差枚 +42240\n✨平均差枚 +191\n✅平均回転数 3764\n✅勝率 43.9%(97/221)\n\n⬇詳細はこちらから⬇\nhttps://t.co/IzNlTdLklV",
     "metrics": {
-      "impressionCount": "997",
+      "impressionCount": "1044",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1105,7 +1232,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1904941366419066922",
     "fullText": "2025/03/26 プレイランドハッピー屯田四条店 データまとめ\n\n✨総差枚 +55811\n✨平均差枚 +223\n✅平均回転数 4025\n✅勝率 48.0%(120/250)\n\n⬇詳細はこちらから⬇\nhttps://t.co/2r8KV3iH7j",
     "metrics": {
-      "impressionCount": "995",
+      "impressionCount": "1033",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1127,7 +1254,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1904930298414149797",
     "fullText": "2025/03/26 プレイランドハッピー南6条店 データまとめ\n\n✨総差枚 +48436\n✨平均差枚 +80\n✅平均回転数 3499\n✅勝率 40.1%(242/604)\n\n⬇詳細はこちらから⬇\nhttps://t.co/p3dU3jlOst",
     "metrics": {
-      "impressionCount": "1016",
+      "impressionCount": "1071",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1149,7 +1276,7 @@
     "tweetUrl": "https://x.com/anaslo_hokkaido/status/1904928765639352780",
     "fullText": "2025/03/26 プレイランドハッピー千歳駅前店 データまとめ\n\n✨総差枚 +69320\n✨平均差枚 +133\n✅平均回転数 2318\n✅勝率 38.2%(199/521)\n\n⬇詳細はこちらから⬇\nhttps://t.co/RjF0zRbgCu",
     "metrics": {
-      "impressionCount": "1039",
+      "impressionCount": "1086",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1162,7 +1289,7 @@
       "name": "札幌・道央スロットアナライズ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/989320552706854912/hs7-a6v0_normal.jpg",
       "description": "札幌近辺のホールの近況とか調べたりしてます。ホール分析とかも好き。パチスロはGOD系&まどマギ、お酒はハイボール派。※つぶやき内容はあくまでイチ個人の戯言です。 ブログも宜しくお願いします。https://t.co/VNSQkuuQNO",
-      "followersCount": 11637,
+      "followersCount": 11635,
       "friendsCount": 7475,
       "location": "札幌"
     },
@@ -1176,7 +1303,7 @@
     "tweetUrl": "https://x.com/slot_analyze/status/1904918973810127002",
     "fullText": "【3/25 ベガスベガス発寒店】5の付く日→集計結果\n\n差枚：-17800枚\n1台平均：-36枚(20スロ492台)\n勝率→180/492で37パー\n\nhttps://t.co/T17LddRVtE https://t.co/yqvai9eiKc",
     "metrics": {
-      "impressionCount": "792",
+      "impressionCount": "813",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1189,7 +1316,7 @@
       "name": "札幌パチンコスロット調査兵団",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1312493534046351360/l3wPAj6o_normal.jpg",
       "description": "今日DOKO行く？札幌近郊のパチンコスロット🎰を楽しむ為のイベント情報をまとめています。😭気軽にフォローお願いします！",
-      "followersCount": 4037,
+      "followersCount": 4035,
       "friendsCount": 225,
       "location": ""
     },
@@ -1198,7 +1325,7 @@
     "tweetUrl": "https://x.com/sapporokansi/status/1904885362725704130",
     "fullText": "【3/27】DOKO行く？まとめ(いつも通りに) https://t.co/2rhbUdxasR",
     "metrics": {
-      "impressionCount": "1046",
+      "impressionCount": "1137",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1225,7 +1352,7 @@
     "tweetUrl": "https://x.com/HOKKAIDO_AIPOS/status/1904883750015787172",
     "fullText": "3/27(木) #明日の気になるお店\n3月もあとわずか🏃\n\n7⃣の付く日 🉐マルハン\n\nマルハン千歳 🉐&amp;㊗10周年🌹 9時開店 8:20抽選\n\nマルハン苫小牧駅前 🉐&amp;㊗4周年🎉 9時開店 モバイル📱\n\nマルハン苗穂 🉐 9時開店 モバイル📱\n\nハッピー千歳駅前 🦁 13時開店 12:40抽選\n\nハッピー三光 🦁✨ 12時開店 11:50抽選 https://t.co/qvmXZRmEvX",
     "metrics": {
-      "impressionCount": "2833",
+      "impressionCount": "2986",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1238,8 +1365,8 @@
       "name": "ドーミン⛄北海道パチスロ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1647334948096061440/N1azYC1U_normal.jpg",
       "description": "札幌を中心にXとオプチャでデータまとめをしております。基本的に結果はオプチャのみに掲載！⛄ドーミンオプチャ→https://t.co/lbZ7ll1HbG 稼働のお役に立てれば🙋🥳【札幌/千歳/小樽/苫小牧/函館/帯広/釧路/北見/中標津】",
-      "followersCount": 4940,
-      "friendsCount": 4535,
+      "followersCount": 4938,
+      "friendsCount": 4534,
       "location": "北海道"
     },
     "images": [
@@ -1252,7 +1379,7 @@
     "tweetUrl": "https://x.com/domin_787sub/status/1904879115859341813",
     "fullText": "🗓3/27 🎰北海道スロット情報\n\n✅周年🎂\n♦️マルハン苫小牧\n去年 平均+633枚\nオンライン抽選忘れずに⚠️\n\n♦️マルハン千歳\n去年 平均+1169枚\n\n去年強すぎ🔥\n今年も期待で良さそう😏\n\n【登別】\n♦️ロイヤル登別\n一六取材🔥\n会社名に懸ける想い💪✨\n新台入替初日🆕\n9時開店⭕️\n久しぶりの開催🙋‍♀️\n過去レポは https://t.co/hFVEzEnWE4",
     "metrics": {
-      "impressionCount": "2394",
+      "impressionCount": "2475",
       "retweetCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -1265,8 +1392,8 @@
       "name": "ドーミン⛄北海道パチスロ",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1647334948096061440/N1azYC1U_normal.jpg",
       "description": "札幌を中心にXとオプチャでデータまとめをしております。基本的に結果はオプチャのみに掲載！⛄ドーミンオプチャ→https://t.co/lbZ7ll1HbG 稼働のお役に立てれば🙋🥳【札幌/千歳/小樽/苫小牧/函館/帯広/釧路/北見/中標津】",
-      "followersCount": 4940,
-      "friendsCount": 4535,
+      "followersCount": 4938,
+      "friendsCount": 4534,
       "location": "北海道"
     },
     "images": [
@@ -1279,7 +1406,7 @@
     "tweetUrl": "https://x.com/domin_787sub/status/1904878853165899876",
     "fullText": "🗓3/27 🎰札幌スロット情報\n\n🔴7のつく日はマルハン🔴\n♦️マルハン苗穂\n王者苗穂👑\nオンライン抽選忘れずに⚠️\n\n♦️マルハン琴似\nメイン機種に配分◎\n負けられない特定日！\n\n♦️マルハン美しが丘\n◾️メイン高配分✊\nスマスロ筆頭に✅\n\n《✨️示唆を出してるお店✨️》\n\n♦️ひまわり札幌駅前タワー🗼 https://t.co/wx4h5XFVj0",
     "metrics": {
-      "impressionCount": "2638",
+      "impressionCount": "2730",
       "retweetCount": 1,
       "likeCount": 6,
       "quoteCount": 0,
@@ -1304,7 +1431,7 @@
     "tweetUrl": "https://x.com/doragonslot777/status/1904870893089939614",
     "fullText": "🐉3/27(木)超おすすめ🔥PICK UP🈁\n\n🔥KEIO湯川\n➡スロセレ⚡\n\n「スロセレ」開催🎊\n当日の時間経過によって\n対象が発表されていく新感覚取材✨\n\n明日の予定は…\n❶⏰当日10時更新\n❷⏰当日14時更新\n❸⏰当日16時更新\n\n更新機種の確認はコチラから👇\nhttps://t.co/c5EHyJK5kK https://t.co/Mkk4Hv1qed",
     "metrics": {
-      "impressionCount": "346",
+      "impressionCount": "360",
       "retweetCount": 0,
       "likeCount": 1,
       "quoteCount": 0,
@@ -1331,7 +1458,7 @@
     "tweetUrl": "https://x.com/doragonslot777/status/1904870609303331313",
     "fullText": "3/27(木)ドラスロおすすめホール🐉\n\n🔥マルハン千歳\n🔥マルハン苫小牧駅前\n➡周年🎂\n\n🔥マルハン各店\n➡特定日(7の付く日)\n\n🔥KEIO湯川\n➡スロセレ⚡\n\n🔥ベガスベガス\n🔥清田ひまわり\n🔥イーグルR-1南8条\n➡北斗おススメ👊\n\n🔥ハッピー白石/三光/東苗穂\n➡金ハッピー✌\n\n🔥ハッピー千歳\n➡⏰13時OPEN https://t.co/45gPGNggDw",
     "metrics": {
-      "impressionCount": "1625",
+      "impressionCount": "1667",
       "retweetCount": 0,
       "likeCount": 2,
       "quoteCount": 0,
