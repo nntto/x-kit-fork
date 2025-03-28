@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
-import fs from "fs-extra";
 import { get } from "lodash";
+import postgres from "postgres";
 import type { TweetApiUtilsData } from "twitter-openapi-typescript";
 import { XAuthClient } from "./utils";
 
@@ -29,20 +29,31 @@ interface ExtendedTweetData {
   metrics?: TweetMetrics;
 }
 
+// postgres の型定義
+type PostgresParameters = Parameters<ReturnType<typeof postgres>>[0];
+
+// データベース接続の初期化
+const neonDbUrl = process.env.NEON_DATABASE_URL;
+if (!neonDbUrl) {
+  console.error("Error: NEON_DATABASE_URL is not set.");
+  process.exit(1);
+}
+const sql = postgres(neonDbUrl);
+
 const client = await XAuthClient();
 
 const resp = await client.getTweetApi().getHomeLatestTimeline({
   count: 100,
 });
 
-// 过滤出原创推文
+// オリジナルのツイートのみをフィルタリング
 const originalTweets = resp.data.data.filter((tweet: TweetApiUtilsData) => {
   const referencedTweets = get(tweet, "tweet.referenced_tweets", []);
   return !referencedTweets || referencedTweets.length === 0;
 });
 
 const rows: ExtendedTweetData[] = [];
-// 输出所有原创推文的访问地址
+// すべてのオリジナルツイートのURLを出力
 originalTweets.forEach((tweet: TweetApiUtilsData) => {
   const isQuoteStatus = get(tweet, "raw.result.legacy.isQuoteStatus");
   if (isQuoteStatus) {
@@ -53,7 +64,7 @@ originalTweets.forEach((tweet: TweetApiUtilsData) => {
     return;
   }
   const createdAt = get(tweet, "raw.result.legacy.createdAt");
-  // return if more than 1 days
+  // 1日以上前のツイートは除外
   if (dayjs().diff(dayjs(createdAt), "day") > 1) {
     return;
   }
@@ -62,7 +73,7 @@ originalTweets.forEach((tweet: TweetApiUtilsData) => {
     tweet,
     "raw.result.legacy.idStr"
   )}`;
-  // 提取用户信息
+  // ユーザー情報の抽出
   const user = {
     screenName: get(tweet, "user.legacy.screenName"),
     name: get(tweet, "user.legacy.name"),
@@ -73,13 +84,13 @@ originalTweets.forEach((tweet: TweetApiUtilsData) => {
     location: get(tweet, "user.legacy.location"),
   };
 
-  // 提取图片
+  // 画像の抽出
   const mediaItems = get(tweet, "raw.result.legacy.extendedEntities.media", []);
   const images = mediaItems
     .filter((media: any) => media.type === "photo")
     .map((media: any) => media.mediaUrlHttps);
 
-  // 提取视频
+  // 動画の抽出
   const videos = mediaItems
     .filter(
       (media: any) => media.type === "video" || media.type === "animated_gif"
@@ -93,7 +104,7 @@ originalTweets.forEach((tweet: TweetApiUtilsData) => {
     })
     .filter(Boolean);
 
-  // 提取メトリクス情報
+  // メトリクス情報の抽出
   const metrics: TweetMetrics = {
     impressionCount: get(tweet, "raw.result.views.count", 0),
     retweetCount: get(tweet, "raw.result.legacy.retweetCount", 0),
@@ -112,29 +123,114 @@ originalTweets.forEach((tweet: TweetApiUtilsData) => {
   });
 });
 
-const outputPath = `./tweets/${dayjs().format("YYYY-MM-DD")}.json`;
-let existingRows: ExtendedTweetData[] = [];
+// データベースへの保存処理
+try {
+  await sql.begin(async (tx) => {
+    for (const row of rows) {
+      const tweetId = row.tweetUrl.split("/").pop();
+      if (!tweetId) continue;
 
-// 如果文件存在，读取现有内容
-if (fs.existsSync(outputPath)) {
-  existingRows = JSON.parse(fs.readFileSync(outputPath, "utf-8"));
+      // 対応するツイートデータを検索
+      const tweetData = originalTweets.find(
+        (t) => get(t, "user.legacy.screenName") === row.user.screenName
+      );
+
+      if (!tweetData) {
+        console.error(`Tweet data not found for user: ${row.user.screenName}`);
+        continue;
+      }
+
+      // ユーザーIDの取得
+      const twitterId =
+        get(tweetData, "raw.result.legacy.userIdStr") ||
+        get(tweetData, "user.restId");
+      if (!twitterId) {
+        console.error(`Twitter ID not found for user: ${row.user.screenName}`);
+        continue;
+      }
+
+      // Authors の保存
+      const result = await (tx as postgres.TransactionSql)`
+        INSERT INTO authors (
+          twitter_id,
+          username,
+          display_name,
+          profile_image_url,
+          created_at,
+          updated_at,
+          is_bot
+        ) VALUES (
+          ${BigInt(twitterId) as unknown as PostgresParameters},
+          ${row.user.screenName},
+          ${row.user.name},
+          ${row.user.profileImageUrl},
+          ${new Date()},
+          ${new Date()},
+          ${false}
+        )
+        ON CONFLICT (twitter_id) DO UPDATE SET
+          username = EXCLUDED.username,
+          display_name = EXCLUDED.display_name,
+          profile_image_url = EXCLUDED.profile_image_url,
+          updated_at = EXCLUDED.updated_at
+        RETURNING id
+      `;
+
+      const authorId = result[0].id;
+
+      // Tweets の保存
+      await (tx as postgres.TransactionSql)`
+        INSERT INTO tweets (
+          id,
+          author_id,
+          content,
+          created_at,
+          created_at_ts,
+          is_reply,
+          reply_to_tweet_id,
+          reply_to_user_id
+        ) VALUES (
+          ${BigInt(tweetId) as unknown as PostgresParameters},
+          ${authorId},
+          ${row.fullText},
+          ${new Date()},
+          ${BigInt(new Date().getTime()) as unknown as PostgresParameters},
+          ${false},
+          ${null},
+          ${null}
+        )
+        ON CONFLICT (id) DO NOTHING
+      `;
+
+      // Engagement Metrics の保存
+      if (row.metrics) {
+        await (tx as postgres.TransactionSql)`
+          INSERT INTO engagement_metrics (
+            tweet_id,
+            impressions,
+            retweets,
+            likes,
+            replies,
+            quotes,
+            collected_at
+          ) VALUES (
+            ${BigInt(tweetId) as unknown as PostgresParameters},
+            ${row.metrics.impressionCount},
+            ${row.metrics.retweetCount},
+            ${row.metrics.likeCount},
+            ${row.metrics.replyCount},
+            ${row.metrics.quoteCount},
+            ${new Date()}
+          )
+        `;
+      }
+    }
+  });
+
+  console.log(`Successfully saved ${rows.length} tweets to database.`);
+} catch (error) {
+  console.error("Error saving data to database:", error);
+  process.exit(1);
+} finally {
+  await sql.end();
 }
-
-// 合并现有数据和新数据
-const allRows = [...existingRows, ...rows];
-
-// 通过 tweetUrl 去重
-const uniqueRows = Array.from(
-  new Map(allRows.map((row) => [row.tweetUrl, row])).values()
-);
-
-// 按照 createdAt 倒序排序
-const sortedRows = uniqueRows.sort((a, b) => {
-  const urlA = new URL(a.tweetUrl);
-  const urlB = new URL(b.tweetUrl);
-  const idA = urlA.pathname.split("/").pop() || "";
-  const idB = urlB.pathname.split("/").pop() || "";
-  return idB.localeCompare(idA); // Twitter ID 本身就包含时間情報，可以直接比較
-});
-
-fs.writeFileSync(outputPath, JSON.stringify(sortedRows, null, 2));
