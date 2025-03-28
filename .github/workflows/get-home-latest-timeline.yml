@@ -10,29 +10,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GH_TOKEN }}  # 設定したシークレットを使用
-          
-      - name: Setup Git
-        run: |
-          git config --global user.name 'GitHub Actions Bot'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
+        # Gitへの書き込みは不要なのでトークンは削除してOK
+        # with:
+        #   token: ${{ secrets.GH_TOKEN }}
+
+      # Gitの設定も不要
+      # - name: Setup Git
+      #   run: |
+      #     git config --global user.name 'GitHub Actions Bot'
+      #     git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
-          
+
       - name: Install dependencies
-        run: bun install
-        
-      - name: Run fetch script
+        run: bun install postgres # DBクライアントライブラリを追加
+
+      - name: Run fetch script and save to DB
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+          NEON_DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }} # DB接続情報を環境変数に追加
         run: bun run scripts/fetch-tweets.ts
-        
-      - name: Commit and push changes
-        run: |
-          git add .
-          git commit -m "chore: update user data [skip ci]" || exit 0
-          git push
+
+      # Gitへのコミット・プッシュは不要
+      # - name: Commit and push changes
+      #   run: |
+      #     git add .
+      #     git commit -m "chore: update user data [skip ci]" || exit 0
+      #     git push

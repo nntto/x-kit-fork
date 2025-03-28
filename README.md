@@ -3,6 +3,7 @@
 一个用于抓取和分析 X (Twitter) 用户数据和推文的工具。
 
 ![x-kit](./images/action-stats.png)
+
 ## 功能特点
 
 - 自动抓取指定用户的基本信息和推文
@@ -39,7 +40,7 @@ GET_ID_X_TOKEN=用于获取用户ID的Token
 ```json
 {
   "username": "用户名",
-  "twitter_url": "用户主页链接", 
+  "twitter_url": "用户主页链接",
   "description": "用户描述",
   "tags": ["标签1", "标签2"]
 }
@@ -62,7 +63,7 @@ bun run scripts/batch-follow.ts
 
 项目使用 GitHub Actions 实现自动化:
 
-- `get-home-latest-timeline.yml`: 每30分钟获取一次最新推文
+- `get-home-latest-timeline.yml`: 每 30 分钟获取一次最新推文
 - `daily-get-tweet-id.yml`: 每天获取一次用户信息
 
 ## 数据存储
@@ -73,10 +74,14 @@ bun run scripts/batch-follow.ts
 ## 技术栈
 
 - Bun
-- TypeScript 
+- TypeScript
 - Twitter API
 - GitHub Actions
 
 ## License
 
 MIT
+
+## ドキュメント
+
+- [Neon DB へのデータ保存設定](docs/neon-db-setup.md)
