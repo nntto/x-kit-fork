@@ -1,22 +1,23 @@
 # x-kit
 
-一个用于抓取和分析 X (Twitter) 用户数据和推文的工具。
+X (Twitter) のユーザーデータとツイートを収集・分析するためのツール。
 
 ![x-kit](./images/action-stats.png)
 
-## 功能特点
+## 機能
 
-- 自动抓取指定用户的基本信息和推文
-- 定时更新用户时间线数据
-- 支持数据本地化存储
-- GitHub Actions 自动化部署
+- 指定したユーザーの基本情報とツイートの自動収集
+- タイムラインデータの定期更新
+- Neon PostgreSQL データベースへのデータ保存
+- GitHub Actions による自動化
 
-## 更新日志
+## 更新履歴
 
-- 2024-12-24 添加每日发布推文功能 `post-twitter-daily.yml` `post-tweet.ts`
-- 2025-01-02 添加获取用户推文功能 `fetch-user-tweets.ts`
+- 2024-12-24 毎日のツイート投稿機能を追加 `post-twitter-daily.yml` `post-tweet.ts`
+- 2025-01-02 ユーザーツイート取得機能を追加 `fetch-user-tweets.ts`
+- 2025-03-29 データ保存を Neon DB に移行 `fetch-tweets.ts`
 
-## 安装
+## インストール
 
 ```bash
 bun install
@@ -24,61 +25,63 @@ bun install
 
 ## 使用方法
 
-### 1. 配置环境变量
+### 1. 環境変数の設定
 
-在项目根目录创建 `.env` 文件,添加以下配置:
+プロジェクトのルートディレクトリに `.env` ファイルを作成し、以下の設定を追加:
 
 ```bash
-AUTH_TOKEN=你的X认证Token
-GET_ID_X_TOKEN=用于获取用户ID的Token
+AUTH_TOKEN=Xの認証トークン
+GET_ID_X_TOKEN=ユーザーID取得用のトークン
+NEON_DATABASE_URL=NeonデータベースのURL
 ```
 
-### 2. 添加需要追踪的用户
+### 2. 追跡するユーザーの追加
 
-在 `dev-accounts.json` 中添加用户信息:
+`dev-accounts.json` にユーザー情報を追加:
 
 ```json
 {
-  "username": "用户名",
-  "twitter_url": "用户主页链接",
-  "description": "用户描述",
-  "tags": ["标签1", "标签2"]
+  "username": "ユーザー名",
+  "twitter_url": "プロフィールURL",
+  "description": "説明",
+  "tags": ["タグ1", "タグ2"]
 }
 ```
 
-### 3. 运行脚本
+### 3. スクリプトの実行
 
 ```bash
-# 获取用户信息
+# ユーザー情報の取得
 bun run scripts/index.ts
 
-# 获取最新推文
+# 最新ツイートの取得とDB保存
 bun run scripts/fetch-tweets.ts
 
-# 批量关注用户
+# ユーザーの一括フォロー
 bun run scripts/batch-follow.ts
 ```
 
-## 自动化部署
+## 自動化
 
-项目使用 GitHub Actions 实现自动化:
+GitHub Actions による自動化:
 
-- `get-home-latest-timeline.yml`: 每 30 分钟获取一次最新推文
-- `daily-get-tweet-id.yml`: 每天获取一次用户信息
+- `get-home-latest-timeline.yml`: 4 時間ごとに最新ツイートを取得し DB に保存
+- `daily-get-tweet-id.yml`: 毎日ユーザー情報を更新
 
-## 数据存储
+## データ保存
 
-- 用户信息保存在 `accounts/` 目录
-- 推文数据保存在 `tweets/` 目录,按日期命名
+- ユーザー情報、ツイート、エンゲージメントメトリクスは Neon PostgreSQL に保存
+- データベーススキーマの詳細は [Neon DB へのデータ保存設定](docs/neon-db-setup.md) を参照
 
-## 技术栈
+## 技術スタック
 
 - Bun
 - TypeScript
 - Twitter API
+- PostgreSQL (Neon)
 - GitHub Actions
 
-## License
+## ライセンス
 
 MIT
 

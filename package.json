@@ -12,11 +12,12 @@
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
+    "@types/pg": "^8.11.11",
     "axios": "^1.7.9",
     "dayjs": "^1.11.13",
     "fs-extra": "^11.2.0",
     "lodash": "^4.17.21",
-    "postgres": "^3.4.5",
+    "pg": "^8.14.1",
     "twitter-api-v2": "^1.18.2",
     "twitter-openapi-typescript": "^0.0.45"
   }
