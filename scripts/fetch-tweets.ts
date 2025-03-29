@@ -147,6 +147,13 @@ try {
         continue;
       }
 
+      // ツイートの作成時刻を取得
+      const createdAt = get(tweetData, "raw.result.legacy.createdAt");
+      if (!createdAt) {
+        console.error(`Created at not found for tweet: ${tweetId}`);
+        continue;
+      }
+
       // ユーザーIDの取得
       const twitterId =
         get(tweetData, "raw.result.legacy.userIdStr") ||
@@ -203,8 +210,8 @@ try {
           BigInt(tweetId),
           authorId,
           row.fullText,
-          new Date(),
-          BigInt(new Date().getTime()),
+          new Date(createdAt),
+          BigInt(new Date(createdAt).getTime()),
           false,
           null,
           null,
