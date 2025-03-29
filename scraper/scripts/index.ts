@@ -1,7 +1,7 @@
+import fs from 'fs-extra';
+import { get } from 'lodash';
 import accounts from "../dev-accounts.json" with { type: "json" };
 import { xGuestClient } from "./utils.ts";
-import {get} from 'lodash';
-import fs from 'fs-extra';
 
 interface Account {
   id?: string;
@@ -13,7 +13,7 @@ interface Account {
 
 const appendedAccounts: Account[] = [];
 for (const account of accounts) {
-  if (fs.existsSync(`./accounts/${account.username}.json`)) {
+  if (fs.existsSync(`../accounts/${account.username}.json`)) {
     console.log(`${account.username} already exists`);
     continue;
   }
@@ -24,7 +24,7 @@ for (const account of accounts) {
     user = await client.getUserApi().getUserByScreenName({screenName: account.username});
     const userData = get(user, 'data.user', {});
     if (Object.keys(userData).length > 0) {
-      fs.writeFileSync(`./accounts/${account.username}.json`, JSON.stringify(userData, null, 2));
+      fs.writeFileSync(`../accounts/${account.username}.json`, JSON.stringify(userData, null, 2));
       console.log(`${account.username} saved`);
     } else {
       console.log(`${account.username} data is empty`);
