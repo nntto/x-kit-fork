@@ -4,7 +4,12 @@ X (Twitter) のユーザーデータとツイートを収集・分析するた�
 
 ![x-kit](./images/action-stats.png)
 
-## 機能
+## プロジェクト構造
+
+- **フロントエンド**: ルートディレクトリに配置されます
+- **スクレイピングシステム**: `scraper/` ディレクトリに配置されています
+
+## スクレイピングシステムの機能
 
 - 指定したユーザーの基本情報とツイートの自動収集
 - タイムラインデータの定期更新
@@ -16,18 +21,18 @@ X (Twitter) のユーザーデータとツイートを収集・分析するた�
 - 2024-12-24 毎日のツイート投稿機能を追加 `post-twitter-daily.yml` `post-tweet.ts`
 - 2025-01-02 ユーザーツイート取得機能を追加 `fetch-user-tweets.ts`
 - 2025-03-29 データ保存を Neon DB に移行 `fetch-tweets.ts`
+- 2025-03-29 スクレイピングシステムを `scraper/` ディレクトリに移動
 
-## インストール
+## スクレイピングシステムのインストールと使用方法
 
 ```bash
+cd scraper
 bun install
 ```
 
-## 使用方法
-
 ### 1. 環境変数の設定
 
-プロジェクトのルートディレクトリに `.env` ファイルを作成し、以下の設定を追加:
+`scraper/` ディレクトリに `.env` ファイルを作成し、以下の設定を追加:
 
 ```bash
 AUTH_TOKEN=Xの認証トークン
@@ -37,7 +42,7 @@ NEON_DATABASE_URL=NeonデータベースのURL
 
 ### 2. 追跡するユーザーの追加
 
-`dev-accounts.json` にユーザー情報を追加:
+`scraper/dev-accounts.json` にユーザー情報を追加:
 
 ```json
 {
@@ -52,13 +57,13 @@ NEON_DATABASE_URL=NeonデータベースのURL
 
 ```bash
 # ユーザー情報の取得
-bun run scripts/index.ts
+bun run fetch
 
 # 最新ツイートの取得とDB保存
-bun run scripts/fetch-tweets.ts
+bun run fetch-tweets
 
 # ユーザーの一括フォロー
-bun run scripts/batch-follow.ts
+bun run batch-follow
 ```
 
 ## 自動化

@@ -1,0 +1,37 @@
+name: Get Home Latest Timeline
+
+on:
+  schedule:
+    - cron: "0 */4 * * *" # 4時間ごとに実行
+  workflow_dispatch: # 手動トリガーを許可
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scraper
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install && bun add @types/pg pg
+
+      - name: Run fetch script and save to DB
+        env:
+          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+          NEON_DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
+        run: bun run scripts/fetch-tweets.ts
+
+      - name: Handle script failure
+        if: failure()
+        run: |
+          echo "Script failed. Checking error logs..."
+          if [ -f error.log ]; then
+            cat error.log
+          fi
